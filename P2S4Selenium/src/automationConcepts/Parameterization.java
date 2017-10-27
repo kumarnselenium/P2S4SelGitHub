@@ -14,7 +14,7 @@ public class Parameterization {
 		//Change 2
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Selenium Docs\\BrowserDrivers\\LatestBrowsers\\chromedriver.exe");
 		WebDriver oBrowser = new ChromeDriver();
-		
+		//Change 3
 		//2	launch www.ebay.com
 		oBrowser.get("https://www.ebay.com/");
 		
