@@ -11,7 +11,7 @@ public class Parameterization {
 	{
 		ExcelRead oSearchSht = new ExcelRead("C:\\Selenium\\Selenium Docs\\P2S4 Class Notes\\eBayTestData.xls", "eBaySearch");
 			
-		
+		//Change 2
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Selenium Docs\\BrowserDrivers\\LatestBrowsers\\chromedriver.exe");
 		WebDriver oBrowser = new ChromeDriver();
 		
